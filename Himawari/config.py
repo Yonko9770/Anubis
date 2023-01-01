@@ -52,39 +52,41 @@ class Config(object):
     #you can change these 
     INFOPIC=True #picture while doing /info
     STRICT_GBAN=True
-    API_ID=681 ##api id from my.telegram.org
-    APP_ID=6281 #same as API_ID
-    API_HASH="45aabfacadsdsds" ##api hash from my.telegram.org
-    APP_HASH="45aabfadsdsd" #same as API_HASH
+    API_ID=9429810 ##api id from my.telegram.org
+    APP_ID=9429810 #same as API_ID
+    API_HASH="06007846a1793a9883596434b299d0ed" ##api hash from my.telegram.org
+    APP_HASH="06007846a1793a9883596434b299d0ed" #same as API_HASH
     BL_CHATS=[1] #chats to be blacklisted
-    MONGO_DB_URL="mongodb+srv://mesdsdwhidsdsgodb.net/?retryWrites=true&w=majority" ##mongo database link (necessary)
+    MONGO_DB_URL="mongodb+srv://Mongo_Db_Bot:@cluster0.hct06fi.mongodb.net/?retryWrites=true&w=majority
+" ##mongo database link (necessary)
     DB_URL2="mongodb+srv://meowhisswswuj7.mongodb.net/?retryWrites=true&w=majority" #mongo db (not necessary)
-    DB_URL="postgresql://wdsdsw@ldsas/wasassddb" #postgres sql database link
-    REDIS_URL="redis://dsds3@reddsdsuth-1-1.ec2.cloud.redislabs.com:154dsd/Arssddsdsb" #redis database url from redislabs.com
-    TOKEN="54dssdV8e59Odo" #bot token from @BotFather
-    DEV_USERS=[5437915218] #developers id
-    DRAGONS=[9656] #sudo users id
-    DEMONS=[1909] #support user ids
-    TIGERS=[1] #commas for multiple ids
-    WOLVES=[2112, 1212] #commas for multiple ids 
-    DONATION_LINK="https://www.paypal.me/PaulSonOfLars" #u can change with yours
-    EVENT_LOGS=-100159 #channel id for gban logs
-    JOIN_LOGGER=-1001523  #log channel/group id
-    OWNER_ID=5437915218 #owner id in integer
-    ERROR_LOGS=-1001 #support group id
-    BOT_ID = 2321 #id of bot in integer value
-    BOT_NAME="Himawari" #your bot name
-    ARQ_API_KEY="SLSFXSsdUXNSMH-ARQ" #ARQ api key from @ARQRobot
+    DB_URL="xlXk5IE4LsdK7O-PqT6NHUOAtljPoKGS@mouse.db.elephantsql.com" #postgres sql database link
+    REDIS_URL="redis://default:CkBvvgB6WTZdNauXBXF6ILvtDTJv7hZA@redis-16130.c212.ap-south-1-1.ec2.cloud.redislabs.com:16130/Akash-free-db
+" #redis database url from redislabs.com
+    TOKEN="5783163434:AAHmvt9e455Zji7ii8IFNTDnMAdmcuaXL-Q" #bot token from @BotFather
+    DEV_USERS=[5298587903] #developers id
+    DRAGONS=[] #sudo users id
+    DEMONS=[] #support user ids
+    TIGERS=[] #commas for multiple ids
+    WOLVES=[] #commas for multiple ids 
+    DONATION_LINK="" #u can change with yours
+    EVENT_LOGS=-1001427087906 #channel id for gban logs
+    JOIN_LOGGER=-1001427087906  #log channel/group id
+    OWNER_ID=1611359278 #owner id in integer
+    ERROR_LOGS=-1001427087906 #support group id
+    BOT_ID =5783163434  #id of bot in integer value
+    BOT_NAME="Anubis" #your bot name
+    ARQ_API_KEY="RAOQXI-ELCWVX-HGSFGY-HVWNDD-ARQ" #ARQ api key from @ARQRobot
     ARQ_API_URL="arq.hamker.dev" #arq link
-    SUPPORT_CHAT="Ignidsn" #support group username without @
-    OWNER_USERNAME="arsshh" #owner username without @
-    UPDATES_CHANNEL="Igsd" #Updates/News Channel username without @
-    BOT_USERNAME="Himawari_Robot" #bot username without @
-    REM_BG_API_KEY="K2dsdsYma6cZx" #not necessary
-    GENIUS_API_TOKEN="e-8UdRQNrIssPyM" # api token from genius.com (not necessary)
-    TIME_API_KEY="QLLLDV7SWFD3" #not necessary
+    SUPPORT_CHAT="YonkoXHQ" #support group username without @
+    OWNER_USERNAME="Ricky_animeboy" #owner username without @
+    UPDATES_CHANNEL="yonkosdemonlogs" #Updates/News Channel username without @
+    BOT_USERNAME="yonkoXprobot" #bot username without @
+    REM_BG_API_KEY="" #not necessary
+    GENIUS_API_TOKEN="" # api token from genius.com (not necessary)
+    TIME_API_KEY="" #not necessary
     SPAMWATCH_API="J968E_20LgxrKjsdN24cqYtD~gNRTbU" #spamwatch api token from @SpamWatchBot
-    WALL_API="6950f5ds6a3" #wall api (not necessary)
+    WALL_API="" #wall api (not necessary)
 
 
 class Production(Config):
