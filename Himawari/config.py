@@ -57,8 +57,8 @@ class Config(object):
     API_HASH="06007846a1793a9883596434b299d0ed" ##api hash from my.telegram.org
     APP_HASH="06007846a1793a9883596434b299d0ed" #same as API_HASH
     BL_CHATS=[1] #chats to be blacklisted
-    MONGO_DB_URL="mongodb+srv://Mongo_Db_Bot:@cluster0.hct06fi.mongodb.net/?retryWrites=true&w=majority
-" ##mongo database link (necessary)
+    MONGO_DB_URL="mongodb+srv://Mongo_Db_Bot:@cluster0.hct06fi.mongodb.net/?retryWrites=true&w=majority"
+ ##mongo database link (necessary)
     DB_URL2="mongodb+srv://meowhisswswuj7.mongodb.net/?retryWrites=true&w=majority" #mongo db (not necessary)
     DB_URL="xlXk5IE4LsdK7O-PqT6NHUOAtljPoKGS@mouse.db.elephantsql.com" #postgres sql database link
     REDIS_URL="redis://default:CkBvvgB6WTZdNauXBXF6ILvtDTJv7hZA@redis-16130.c212.ap-south-1-1.ec2.cloud.redislabs.com:16130/Akash-free-db
