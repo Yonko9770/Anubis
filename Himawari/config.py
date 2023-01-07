@@ -61,8 +61,8 @@ class Config(object):
  ##mongo database link (necessary)
     DB_URL2="mongodb+srv://meowhisswswuj7.mongodb.net/?retryWrites=true&w=majority" #mongo db (not necessary)
     DB_URL="xlXk5IE4LsdK7O-PqT6NHUOAtljPoKGS@mouse.db.elephantsql.com" #postgres sql database link
-    REDIS_URL="redis://default:CkBvvgB6WTZdNauXBXF6ILvtDTJv7hZA@redis-16130.c212.ap-south-1-1.ec2.cloud.redislabs.com:16130/Akash-free-db
-" #redis database url from redislabs.com
+    REDIS_URL="redis://default:CkBvvgB6WTZdNauXBXF6ILvtDTJv7hZA@redis-16130.c212.ap-south-1-1.ec2.cloud.redislabs.com:16130/Akash-free-db"
+ #redis database url from redislabs.com
     TOKEN="5783163434:AAHmvt9e455Zji7ii8IFNTDnMAdmcuaXL-Q" #bot token from @BotFather
     DEV_USERS=[5298587903] #developers id
     DRAGONS=[] #sudo users id
